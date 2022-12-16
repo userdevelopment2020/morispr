@@ -131,6 +131,7 @@ $(document).ready(function() {
 
     // responsive nav
     $(document).on('click', '.sub-nav a', function() {
+        console.log("aassassd");
         //if ($(window).width() < 1025) {
         let currentElement = $(this);
         let sub_menu_wrapper = $('#sub-menu-wrapper');
