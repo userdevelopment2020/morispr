@@ -193,17 +193,17 @@ $(document).ready(function() {
         $(this).parents('.has-sub-content').find('.sub-content').slideUp();
     });
 
-    $('.language-dropdown').mouseover(function() {
-        closeMegaCountries();
-        closeMegaHotlinks();
-    });
+    // $('.language-dropdown').mouseover(function() {
+    //     closeMegaCountries();
+    //     closeMegaHotlinks();
+    // });
 
-    $('#globe-content').on('mouseleave', function() {
-        closeMegaCountries();
-    });
+    // $('#globe-content').on('mouseleave', function() {
+    //     closeMegaCountries();
+    // });
 
-    $('.hotlinks-megamenu').on('mouseleave', function() {
-        closeMegaHotlinks();
-    });
+    // $('.hotlinks-megamenu').on('mouseleave', function() {
+    //     closeMegaHotlinks();
+    // });
 
 });
