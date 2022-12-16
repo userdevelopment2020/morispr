@@ -130,7 +130,7 @@ $(document).ready(function() {
     setInterval(getval, 1000);
 
     // responsive nav
-    $(document).on('click', '.sub-nav a', function() {
+    $(document).on('click', '.open_menu', function() {
         console.log("aassassd");
 
         $(this).closest('.nav-bar').find('.mega-menu').addClass('show');
