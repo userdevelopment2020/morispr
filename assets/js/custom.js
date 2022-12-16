@@ -130,14 +130,14 @@ $(document).ready(function() {
     setInterval(getval, 1000);
 
     // responsive nav
-    $('.nav-bar ul li.sub-nav').on('click', function() {
-        if ($(window).width() < 1025) {
-            let currentElement = $(this);
-            let sub_menu_wrapper = $('#sub-menu-wrapper');
-            sub_menu_wrapper.html(currentElement.find('.mega-menu').html());
-            sub_menu_wrapper.addClass('show');
-            currentElement.parents('.nav-bar').find('#navbar').hide();
-        }
+    $(document).on('click', '.sub-nav a', function() {
+        //if ($(window).width() < 1025) {
+        let currentElement = $(this);
+        let sub_menu_wrapper = $('#sub-menu-wrapper');
+        sub_menu_wrapper.html(currentElement.find('.mega-menu').html());
+        sub_menu_wrapper.addClass('show');
+        currentElement.parents('.nav-bar').find('#navbar').hide();
+        //}
     });
 
     $(document).on('click', '#sub-menu-wrapper .heading', function() {
