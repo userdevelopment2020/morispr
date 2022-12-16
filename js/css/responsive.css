@@ -1,0 +1,1651 @@
+@media (min-width: 1366px) {
+    /*.container {
+        max-width: 1280px;
+    }
+    .rocketSec .row + .row [class^="col-"]{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }*/
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1366px;
+    }
+    
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1700.98px) {
+
+    .moris-banner h1 br {
+        display: none;
+    }
+    .generatingSec {
+        background: transparent;
+    background-color: #931880;
+        padding: 4rem 0;
+}
+.leadGeneration .leadSecone {
+    background: transparent;
+}
+
+.leadSecTwo {
+    background: url(../images/entertainmentBg.png) center top/cover no-repeat, transparent;
+}
+.leadGeneration .leadSecThre {
+    background: none;
+}
+
+.leadCampaignSec {
+    background: url(../images/entertainmentBg.png) center top/cover no-repeat;
+}
+.payrsltSec {
+    background: transparent;
+}
+.entertainmentSec {
+    background: url(../images/entertainmentBg.png) center top/cover no-repeat;
+}
+    .moris-banner h1,
+    main .moris-banner h1 {
+        font-size: 3.5rem;
+    }
+    .manageStragety {
+        background: url(../images/rightbg.png) no-repeat top center/ cover, url(../images/elements/element3.png) no-repeat top 5% right 20%;
+
+    }
+    .manageBg {
+        gap: 2rem;
+    }
+    .testimonialSec .slider-for p {
+        font-size: 1.6rem;
+        margin-right: 6rem;
+    }
+    .testimonialSec .slider-for .fas.fa-quote-right {
+        margin-right: 9rem;
+    }
+    .testimonialSec {
+        background: url(../images/elements/element5.png) no-repeat right top, url(../images/elements/element6.png) no-repeat left bottom 11rem;
+
+    }
+    .workflowSec .lingImg {
+        display: none;
+    }
+    .section-heading h2 {
+        font-size: 3rem;
+    }
+    .optimizeBox.optimizeLeft {
+    top: 0.4rem;
+    left: 1.5rem;
+}
+.optimizeBox.researchLeft {
+    top: 11rem;
+    padding-right: 13rem;
+    left: 3rem;
+}
+.optimizeBox.contentLeft {
+    top: -7.5rem;
+    left: -1.4rem;
+}
+.optimizeBox.kewordLeft {
+    top: -3.3rem;
+    left: -2rem;
+    padding-right: 2rem;
+}
+.optimizeBox.earnedLeft {
+    left: -1.8rem;
+    top: 3rem;
+    padding-right: 9.3rem;
+}
+.optimizeBox h2 {
+    margin: 1.1rem 0;
+}
+.optimizeBox.testngLeft {
+    top: 10.6rem;
+}
+}
+
+@media (max-width: 1600.98px) {
+    .smmSec {
+        background: url(../images/smmBg.png) right -5rem bottom no-repeat, url(../images/elements/element1.png) no-repeat left -4rem top 4rem;
+    }
+
+    .serviceSec.seoSec {
+        background: rgb(238 31 79 / 10%) url(../images/elements/element1.png) no-repeat left -4rem top 6rem;
+    }
+
+    .testimonialSec {
+        background-size: 41%;
+    }
+
+    .testimonialSec .slider-for .fas.fa-quote-right {
+        margin-right: 4rem;
+    }
+
+    .optimizeBox.optimizeLeft {
+    padding-left: 9rem;
+    top: 5.4rem;
+}
+
+.optimizeBox.researchLeft {
+    padding-left: 0;
+    padding-right: 10rem;
+}
+
+.optimizeBox.kewordLeft {
+    padding-right: 0rem;
+    top: -5.3rem;
+}
+
+.optimizeBox.earnedLeft {
+    padding-right: 45%;
+    left: -0.4rem;
+    top: 7rem;
+}
+
+.optimizeBox h2 {
+    font-size: 1.45rem;
+}
+}
+
+@media (max-width: 1440.98px) {
+    .main-header .navbar .nav-item .nav-link {
+        padding: 0.5em;
+    }
+
+    header .themeBtn {
+        font-size: 0.875rem;
+    }
+
+    .moris-banner figure .Graph {
+        top: 1rem;
+        right: 5rem;
+    }
+
+    .moris-banner figure .Document {
+        bottom: -2rem;
+        right: 6rem;
+    }
+
+    .entertainmentSec {
+        background: url(../images/entertainmentBg.png) center top/cover no-repeat, url(../images/elements/element2.png) no-repeat right -6rem bottom 10rem, url(../images/elements/element3.png) no-repeat left top 3rem;
+    }
+
+    .smmSec {
+        background: url(../images/smmBg.png) right -12rem bottom no-repeat, url(../images/elements/element1.png) no-repeat left -7rem top 4rem;
+    }
+
+    .serviceSec.seoSec {
+        background: rgb(238 31 79 / 10%) url(../images/elements/element1.png) no-repeat left -6rem top 6rem;
+    }
+
+    .smmSec .media-body h3, .saleSec .media-body h3 {
+        font-size: 1.25rem;
+    }
+
+    .pricingBox .pricingContent ul li {
+        min-height: 48px;
+    }
+
+    .main-header {
+        overflow: hidden;
+    }
+
+    .testimonialSec {
+        background: url(../images/elements/element5.png) no-repeat right -13rem top, url(../images/elements/element6.png) no-repeat left -5rem bottom 7rem;
+    }
+    .optimizeBox.optimizeLeft {
+    left: 2.5rem;
+}
+.optimizeBox.researchLeft {
+    left: 5rem;
+}
+}
+
+@media (max-width: 1366.98px) {
+    .main-header .navbar .nav-item .nav-link {
+        font-size: 0.875rem;
+    }
+
+    .chatBtn {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .chatBtn > img {
+        width: 40%;
+    }
+
+    .moris-banner > img {
+        min-height: 750px;
+        object-fit: cover;
+    }
+
+    .section-heading h4, .section-paragraph, .themeBtn, .serviceBox p, .smmSec .media-body h3, .saleSec .media-body h3 {
+        font-size: 1rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .serviceBox h3 {
+        font-size: 1.5rem;
+    }
+
+    .entertainmentSec .media-body h3 {
+        font-size: 1.25rem;
+    }
+
+    .callToAction h2 {
+        font-size: 2rem;
+    }
+
+    .workflowSec .row + .row {
+        margin-top: 3.5rem;
+    }
+
+    .workflowSec .lingImg {
+        top: 4rem;
+        left: 1rem;
+        width: 97%;
+    }
+
+    .rocketOne {
+        display: none;
+    }
+
+    .optimizeBox {
+        position: static;
+    }
+    .rocketSec{
+        padding: 6rem 0;
+    }
+    .rocketSec .row + .row {
+        margin-top: 6rem;
+    }
+
+    .optimizeBox.optimizeLeft,
+    .optimizeBox.researchLeft,
+    .optimizeBox.contentLeft,
+    .optimizeBox.kewordLeft,
+    .optimizeBox.earnedLeft,
+    .optimizeBox.testngLeft {
+        padding: 0;
+        text-align: left;
+        margin: 3rem 0;
+    }
+
+    .optimizeBox.testngLeft h2 {
+        justify-content: flex-start;
+    }
+    .ourProcess .mt-5{
+        margin-top: 0 !important;
+    }
+    .process .row:nth-child(4) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: 1rem;
+        left: -3rem;
+    }
+    .process .row:nth-child(6) [class^="col-"]:nth-child(1) .processBox span{
+        bottom: 0.5rem;
+    }
+    .seoTrafic {
+        background: url(../images/elements/element1.png) no-repeat left top 20rem, url(../images/elements/element3.png) no-repeat right 5rem top 14rem;
+    }
+    .manHand {
+    right: -29px;
+    height: 240px;
+}
+.clousreContent h3 {
+    font-size: 1.575rem;
+}
+}
+
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 13px;
+    }
+    .visionwrldSec {
+    padding: 1rem 0;
+}
+
+    .section-heading h2,
+    .struglngSec .section-heading h2 {
+        font-size: 2.75rem;
+    }
+
+    .main-header .navbar-brand img {
+        width: 100px;
+    }
+
+    .main-header .navbar .nav-item .nav-link {
+        padding: 0.25em;
+    }
+
+    .main-header .d-flex .get-purposal a.get-btn {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .main-header .d-flex .get-purposal a.get-btn > img {
+        display: none;
+    }
+
+    .main-header .d-flex .get-purposal {
+        margin-right: 10px;
+    }
+
+    .main-header .d-flex .open_nav {
+        margin-left: 10px;
+    }
+
+    .moris-banner figure .Graph {
+        top: 4rem;
+        right: 2rem;
+        width: 25%;
+    }
+
+    .moris-banner figure .SEO {
+        top: 11.5rem;
+        left: 12rem;
+        width: 30%;
+    }
+
+    .moris-banner figure .Glass {
+        top: 16rem;
+        left: 16rem;
+        width: 25%;
+    }
+
+    .moris-banner figure .Document {
+        bottom: 0rem;
+        right: -2rem;
+        width: 35%;
+    }
+
+    .moris-banner figure .Cloud {
+        bottom: -8rem;
+        left: 14rem;
+        width: 30%;
+    }
+
+    .moris-banner figure .Bars {
+        bottom: -8rem;
+        left: 0rem;
+        width: 25%;
+    }
+
+    .moris-banner figure .Vass {
+        top: -7rem;
+        right: 10rem;
+    }
+
+    .moris-banner h1,
+    main .moris-banner h1,
+    .linkedinSec .moris-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    .moris-banner p {
+        font-size: 1.125rem;
+    }
+
+    .serviceBox p {
+        min-height: 80px;
+    }
+
+    .entertainmentSec {
+        background: url(../images/entertainmentBg.png) center top/cover no-repeat, url(../images/elements/element3.png) no-repeat left top 3rem;
+    }
+
+    .workingSec .processBox .content span {
+        font-size: 6.75rem;
+    }
+
+    .smmSec {
+        background: url(../images/smmBg.png) right -30rem bottom no-repeat, url(../images/elements/element1.png) no-repeat left -11rem top 4rem;
+    }
+
+    .serviceSec.seoSec, .saleSec {
+        background: none;
+    }
+
+    .infoBox .pricingHead {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .pricingBox .pricingHead figure {
+        height: 9rem;
+        min-height: 9rem;
+    }
+
+    .pricingBox .pricingHead figure > img {
+        width: 50%;
+    }
+
+    .pricingBox .pricingContent ul li + li {
+        margin-top: 0;
+    }
+
+    .main-header .navbar-nav {
+        margin-left: 0;
+    }
+
+    .main-header .d-flex .open_nav {
+        padding: 0 0.25em;
+    }
+
+    .manageStragety {
+        background: url(../images/rightbg.png) no-repeat top center/ cover, url(../images/elements/element3.png) no-repeat top 5% right 20%;
+    }
+
+    .section-headingTwo > h2 > br {
+        display: none;
+    }
+
+    .getBtn img {
+        left: -35%;
+    }
+
+    .payrsltSec {
+        background: transparent;
+    }
+
+    .payrsltSec .promiseContent:before {
+        width: 233px;
+    }
+
+    .payrsltSec .promiseContent:after {
+        width: 200px;
+    }
+
+    .clousreContent h3 {
+        font-size: 1.5rem;
+    }
+
+    .targetSec .section-heading h2 .headingBorder::after {
+        width: 130px;
+        bottom: -30px;
+    }
+
+    .lnkdnSocial ul li a {
+        margin: 1rem 0;
+    }
+
+    .testimonialSec {
+        background: url(../images/elements/element5.png) no-repeat right -15rem top/contain,
+        url(../images/elements/element6.png) no-repeat left -4rem bottom 10rem/40%;
+    }
+
+    .testimonialSec .slider-for p {
+        font-size: 1.5rem;
+    }
+
+    .payrsltSec .section-heading h2 .headingBorder::after {
+        width: 138px;
+        height: 30px;
+    }
+
+    .payrsltSec .linkedinImg .section-heading h2 {
+        font-size: 3.5rem;
+    }
+
+    .payrsltSec .linkedinImg .section-heading h4 {
+        font-size: 2rem;
+    }
+
+    .instagramSec .moris-banner {
+        padding: 7rem 0 12rem;
+    }
+
+    .aproachSec {
+        padding: 6rem 0 12rem;
+        background: var(--secondary-color) url(../images/shape1.png) no-repeat bottom right/contain;
+    }
+
+    .testimonialSec .slider-nav figure {
+        margin-right: -2rem;
+    }
+
+    .serviceSec .section-heading h2 .headingBorder::after {
+        width: 150px;
+        height: 35px;
+        background-size: contain;
+    }
+
+    .twitterSec .section-heading h2 .headingBorder::after,
+    .linkedinSec .section-heading h2 .headingBorder::after,
+    .instagramSec .section-heading h2 .headingBorder::after {
+        width: 180px;
+        height: 30px;
+    }
+
+    .smmSec .section-heading h2 .headingBorder::after {
+        width: 180px;
+        height: 40px;
+    }
+
+    .visionwrldSec .section-heading h2 .headingBorder::after,
+    .payrsltSec .section-heading h2 .headingBorder::after {
+        width: 140px;
+        height: 30px;
+    }
+
+    .twitterSec .aproachSec .section-heading h2 .headingBorder:after {
+        width: 180px;
+        height: 30px;
+    }
+
+    .socialMediaSec .smmSec {
+        padding: 3rem 0 6rem;
+    }
+
+    .socialMediaSec .saleSec {
+        padding: 5rem 0;
+    }
+
+    .socialMediaSec .saleSec .col-lg-3 {
+        display: flex;
+    }
+
+    .workflowSec {
+        padding: 7rem 0;
+    }
+
+    .workflowSec .row + .row {
+        margin-top: 3.5rem;
+    }
+
+    .workflowSec .lingImg {
+        top: 4rem;
+        left: 1rem;
+        width: 97%;
+    }
+
+    .socialMediaSec .moris-tabs {
+        gap: 0 0.5rem;
+    }
+
+    .socialMediaSec .moris-tabs .nav-link {
+        padding: 0.5em 1em 0.5em 2em;
+    }
+
+    .socialMediaSec .moris-tabs .nav-link img {
+        top: -0.5em;
+        left: 0;
+        width: 30px
+    }
+    .process .row:nth-child(2) [class^="col-"]:nth-child(1) .processBox span{
+        left: -30px;
+    }
+    .process .row:nth-child(2) [class^="col-"]:nth-child(2) .processBox span{
+        bottom: -2.5rem;
+        right: 12rem;
+    }
+    .process .row:nth-child(3) [class^="col-"]:nth-child(2) .processBox span{
+        right: -7.5rem;
+        top: 11.25rem;
+    }
+    .process .row:nth-child(3) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: -2.25rem;
+        left: 12rem;
+    }
+    .process .row:nth-child(4) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: -1rem;
+        left: -2rem;
+    }
+    .process .row:nth-child(4) [class^="col-"]:nth-child(2) .processBox span {
+        bottom: -3.5rem;
+        left: 5rem;
+    }
+    .process .row:nth-child(5) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: -1.75rem;
+        left: 4.5rem;
+    }
+    .process .row:nth-child(6) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: -0.5rem;
+    }
+    .process .row:nth-child(6) [class^="col-"]:nth-child(2) .processBox span {
+        bottom: -3rem;
+        left: 11rem;
+    }
+    .process .row:nth-child(7) [class^="col-"]:nth-child(1) .processBox span {
+        bottom: -1.5rem;
+        left: 3rem;
+    }
+    .keywrdBox,
+    .keywrdBoxrght {
+        margin: 0;
+    }
+    .generatingSec .col-md-3 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.rocketLine {
+    top: 59%;
+}
+}
+
+@media (max-width: 991.98px) {
+    html {
+        font-size: 12px;
+    }
+
+    .main-header .navbar-brand img {
+        width: 140px;
+    }
+
+    .main-header .navbar .nav-item .nav-link {
+        padding: 0.5em;
+    }
+
+    .main-header .d-flex .get-purposal a.get-btn {
+        padding: 12px 43px 12px 14px;
+        font-size: 14px;
+    }
+
+    .main-header .d-flex .get-purposal a.get-btn > img {
+        display: block;
+    }
+
+    ul.moris-celebrity {
+        text-align: left;
+    }
+
+    ul.moris-celebrity li span.open_nav {
+        position: absolute;
+        top: -15px;
+        right: 0;
+        background-color: #ee1f4d;
+        height: 53px;
+        width: 40px;
+        border-top-left-radius: 27px;
+        border-bottom-left-radius: 30px;
+        line-height: 50px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .topBar ul li a span {
+        display: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none !important;
+        background-color: #ffff00;
+        padding: 5px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    .overlay input[type=text] {
+        width: 80%;
+    }
+
+    .overlay-content {
+        width: 100%;
+        left: 0;
+    }
+
+    .overlay-content form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main-header .navbar .nav-item .nav-link {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .main-header {
+        padding: 15px 0;
+        position: relative;
+    }
+
+    .main-header .d-flex .open_nav {
+        display: none;
+    }
+
+    .mobileview-btn {
+        display: inline-block;
+    }
+
+    .moris-mobile-view {
+        display: none;
+    }
+
+    .moris-mobile-view .navbar-nav {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .main-header .navbar .nav-item .moris-mega-menu {
+        top: 0;
+    }
+
+    .main-header .navbar .nav-item .moris-mega-menu .menu-box {
+        margin-bottom: 20px;
+    }
+
+    .hide-for-mobile {
+        display: none !important;
+    }
+
+    .main-header .navbar-nav {
+        margin-left: 0;
+    }
+
+    .main-header .navbar-brand img {
+        width: 100px;
+    }
+
+    .manager-login {
+        text-transform: uppercase;
+        background-color: #ffff00;
+        border-radius: 8px;
+        padding: 12px 15px !important;
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px !important;
+    }
+
+    .hide-for-desktop {
+        display: inline-block;
+        font-size: 12px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .subcribed-holder.hide-for-desktop {
+        display: block;
+        text-align: center;
+        margin: 2rem 0 0;
+    }
+
+    .hide-for-desktop .socialLinks {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .hide-for-desktop .socialLinks li, .hide-for-desktop .socialLinks li:first-child {
+        margin: 0 !important;
+        border: 0 !important;
+    }
+
+    .hide-for-desktop .socialLinks li a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--secondary-color);
+        border-radius: 100%;
+        color: #fff;
+    }
+
+    span.hide-for-desktop {
+        font-size: 18px;
+        position: relative;
+        top: -4px;
+    }
+
+    .main-header {
+        overflow: initial;
+    }
+
+    .main-header .navbar ul li {
+        border-bottom: 2px dashed #ccc;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .main-header .navbar ul li:first-child {
+        margin-top: 30px;
+    }
+
+    .main-header .navbar ul li ul li {
+        border: none;
+        margin: 0;
+    }
+
+    .main-header .navbar .nav-item .nav-link svg {
+        width: 20px;
+        height: 20px;
+        margin-left: 3px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 4px;
+        float: right;
+        transform: rotate(-92deg);
+        transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+
+    .main-header .navbar .nav-item .nav-link.show svg {
+        border: 1px solid #ee1f4d;
+        transform: rotate(0deg);
+    }
+
+    .main-header .navbar .nav-item .nav-link img {
+        margin-right: 5px;
+        position: relative;
+        top: -2px;
+    }
+
+    .main-header .navbar .nav-item:hover .moris-mega-menu {
+        display: inherit;
+    }
+
+    .main-header .navbar .moris-mega-menu.dropdown-menu.megamenu {
+        display: none;
+    }
+
+    .main-header .navbar .moris-mega-menu.dropdown-menu.megamenu.show {
+        display: block;
+        height: 300px;
+        overflow: auto;
+    }
+
+    a.nav-link.dropdown-toggle:after {
+        display: none;
+    }
+
+    .moris-price-plan .tab-content .col-lg-3 {
+        margin-bottom: 30px;
+    }
+
+    .moris-price-plan ul.nav-tabs li button {
+        margin-bottom: 15px;
+    }
+
+    .moris-price-plan ul.nav-tabs li:last-child button {
+        margin-bottom: 0;
+    }
+
+    .moris-price-plan ul.nav-tabs {
+        width: 100%;
+    }
+
+    .main-header .subcribed-holder .moris-social li {
+        margin: 0 !important;
+        border-bottom: none;
+    }
+
+    .subcribed-holder .moris-social li a {
+        line-height: 40px;
+    }
+
+    .sidenav-holder {
+        width: 100%;
+    }
+
+    .moris-sidenav {
+        height: 600px;
+        position: absolute;
+        z-index: 10000;
+        opacity: 1;
+        visibility: visible;
+        overflow-y: scroll;
+    }
+
+    .be-social ul {
+        display: block;
+    }
+
+    .reach-us ul li {
+        width: 100%;
+    }
+
+    .be-social ul li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .be-social ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .sidenav-description ul li .caption-holder .text-holder h4 {
+        font-size: 16px;
+    }
+
+    .navbar-toggler.collapsed i {
+        display: none;
+    }
+
+    .navbar-toggler i {
+        display: inline-block;
+    }
+
+    .navbar-toggler.collapsed span {
+        display: inline-block;
+    }
+
+    .navbar-toggler span {
+        display: none;
+    }
+
+    .main-header .navbar .nav-item .moris-mega-menu {
+        position: inherit;
+    }
+
+    .moris-banner > img {
+        min-height: 520px;
+        object-fit: cover;
+    }
+
+    .topBar ul li a > img {
+        display: none;
+    }
+
+    .section-heading h2,
+    .struglngSec .section-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .serviceBox figure {
+        width: 35%;
+    }
+
+    .serviceBox h3 {
+        font-size: 1.25rem;
+        margin: 1rem 0;
+    }
+
+    .serviceBox p {
+        min-height: 90px;
+    }
+
+    .entertainmentSec .media {
+        padding: 1.25rem 0;
+        gap: 0.5rem;
+    }
+
+    .smmSec {
+        background: none;
+    }
+
+    .callToAction {
+        padding: 2.5rem 0;
+    }
+
+    .callToAction h2 {
+        font-size: 1.75rem;
+    }
+
+    .saleSec {
+        padding: 6rem 0 0;
+    }
+
+    .pricingBox .pricingContent ul li {
+        font-size: 0.875rem;
+        min-height: 35px;
+    }
+
+    .serviceSec .section-heading h2 .headingBorder::after {
+        width: 100px;
+        bottom: -35px;
+        right: 0px;
+        background-size: contain;
+    }
+
+    .entertainmentSec .section-heading h2 .headingBorder::after {
+        width: 150px;
+        bottom: -35px;
+        right: 0px;
+        background-size: contain;
+    }
+
+    .workingSec .section-heading h2 .headingBorder::after {
+        bottom: -35px;
+        right: auto;
+        left: 0;
+        width: 120px;
+    }
+
+    .smmSec .section-heading h2 .headingBorder::after {
+        width: 200px;
+        bottom: -50px;
+        right: 0px;
+        background-size: contain;
+        height: 55px;
+    }
+
+    .seoSec .section-heading h2 .headingBorder::after {
+        bottom: -30px;
+        right: 0px;
+        width: 70px;
+    }
+
+    .saleSec .section-heading h2 .headingBorder::after {
+        bottom: -30px;
+        right: 0px;
+        width: 100px;
+    }
+
+    .pricingSec .section-heading h2 .headingBorder::after {
+        bottom: -35px;
+        right: 0px;
+        width: 110px;
+    }
+
+    .consultationSec .section-heading h2 .headingBorder::after {
+        bottom: -35px;
+        right: -10px;
+        width: 130px;
+    }
+
+    .moris-banner h1,
+    main .moris-banner h1 {
+        font-size: 2.75rem;
+    }
+
+    .facebookManagement .section-heading h2 {
+        font-size: 2.25rem;
+    }
+
+    .manageStragety .section-heading h2 .headingBorder::after,
+    .aproachSec .section-heading h2 .headingBorder:after,
+    .rocketSec .section-heading h2 .headingBorder::after
+    {
+        width: 145px;
+        bottom: -30px;
+
+    }
+
+    .visionwrldSec .section-heading h2 .headingBorder::after,
+    .seoRankingSec .section-heading h2 .headingBorder::after{
+        width: 100px;
+        bottom: -40px;
+    }
+
+    .section-headingTwo h2 {
+        font-size: 2rem;
+    }
+
+    .dvlpContent {
+        padding: 2rem 0 3rem 0;
+    }
+
+    .dvlpContent figure {
+        right: -45%;
+        top: 14%;
+        width: 30%;
+    }
+
+    .aproachSec {
+        padding: 6rem 0 8rem;
+        background: var(--secondary-color) url(../images/shape1.png) no-repeat bottom right/contain;
+    }
+
+    .strglContent p,
+    .visionwrldSec .section-paragraph {
+        font-size: 1.125rem;
+    }
+
+    .payrsltSec .promiseContent:before {
+        width: 175px;
+        left: 0;
+    }
+
+    .payrsltSec .promiseContent:after {
+        width: 150px;
+        right: 0;
+    }
+
+    .pricingBox .pricingContent .themeBtn {
+        min-width: 11em;
+        padding: 0.75em 0.75em;
+    }
+
+    .payrsltSec .enterpriseBox .recomend {
+
+        margin: -1.25rem auto;
+    }
+
+    .targetSec .section-heading h2 .headingBorder::after,
+    .manageSec .section-heading h2 .headingBorder::after {
+        width: 80px;
+        bottom: -35px;
+    }
+
+    .lnkdnSocial ul li a {
+        width: 153px;
+        height: 153px;
+        margin: 0 1rem 1rem;
+    }
+
+    .lnkdnSocial ul li a span {
+        font-size: 1.35rem;
+    }
+
+
+    .testimonialSec {
+        background: url(../images/elements/element5.png) no-repeat right -15rem top/contain,
+        url(../images/elements/element6.png) no-repeat left bottom 8rem/40%;
+    }
+
+    .testimonialSec .slider-nav figure {
+        margin-right: -1rem;
+    }
+
+    .testimonialSec .userContent h2 {
+        font-size: 2.25rem;
+    }
+
+    .testimonialSec .userContent h3,
+    .testimonialSec .userContent span {
+        font-size: 1.75rem;
+    }
+
+    .socialMediaSec .smmSec {
+      background: url(../images/elements/element3.png) no-repeat right -4rem top 4rem, url(../images/socialmeidabg.png) no-repeat 100% 100%;
+    }
+
+    .socialMediaSec .serviceBox h3 {
+        min-height: initial;
+    }
+
+    .workflowSec {
+        background-image: url("../images/workflow/workflowBgm.png");
+    }
+
+    .workflowSec .lingImg {
+        display: none;
+    }
+
+    .workflowSec .row + .row {
+        margin-top: 5.5rem;
+    }
+
+    .callToAction p {
+        line-height: 1.8;
+    }
+
+    .manageSec .section-heading h2 .headingAlt {
+        display: inline;
+    }
+
+    .socialMediaSec .section-heading {
+        margin-bottom: 3rem;
+    }
+
+    .socialMediaSec .moris-tabs .nav-link img {
+        left: -5px;
+    }
+
+    .entertainmentSec .section-heading h2 .headingBorder {
+        display: inline;
+    }
+    .enterWeb{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .optimizeBox {
+        min-height: 237px;
+    }
+    .optimizeBox h2{
+        font-size: 1.5rem;
+    }
+    .optimizeBox.optimizeLeft p{
+        padding: 0;
+    }
+    .process{
+        background: transparent;
+        margin: 0;
+    }
+    .ourProcess .processBox > div{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .ourProcess .processBox span{
+        position: static;
+        font-size: 1.25rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 3px solid currentColor;
+        margin-bottom: 1rem;
+    }
+    .ourProcess .processBox figure {
+        width: 4rem;
+    }
+    form.auditForm {
+        margin-top: 4rem;
+    }
+    .yearBox h2 {
+    font-size: 2.25rem;
+}
+.yearBox p {
+    font-size: 1rem;
+}
+.yearBg {
+    padding: 3rem 0;
+}
+}
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 14px;
+    }
+    .payrsltSec {
+    padding: 4rem 0;
+}
+.manHand {
+    display: none;
+}
+
+    .moris-banner figure,
+    .payrsltSec .promiseContent:before,
+    .payrsltSec .promiseContent:after {
+        display: none;
+    }
+
+    .moris-banner > img {
+        min-height: 420px;
+    }
+
+    .row {
+        gap: 1rem 0;
+    }
+
+    .serviceBox {
+        text-align: center;
+    }
+
+    .serviceBox figure {
+        width: auto;
+    }
+
+    .serviceBox p {
+        min-height: auto;
+    }
+
+    .section-heading h2,
+    .struglngSec .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .processRow {
+        display: none;
+    }
+
+    .processBox {
+        text-align: center;
+    }
+
+    .workingSec .processBox .content {
+        justify-content: center;
+    }
+
+    .col-md-3 + .col-md-3 .processBox {
+        margin-top: 2rem;
+    }
+
+    .callToAction h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .pricingBox .pricingHead, .pricingBox .pricingHead figure {
+        height: auto;
+        min-height: auto;
+    }
+
+    .pricingBox .pricingContent ul li {
+        font-size: 1rem;
+        min-height: auto;
+    }
+
+    .pricingBox .pricingContent ul li + li {
+        margin-top: 1em;
+    }
+
+    .chatBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+        right: 1rem;
+        bottom: 3.5rem;
+    }
+
+    .moris-footer .partener-brand ul {
+        display: block;
+    }
+
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-social.text-right,
+    .payment-method.text-right {
+        text-align: center !important;
+    }
+
+    .footer-nav.first-child ul li {
+        width: 50%;
+        float: left;
+    }
+
+    .moris-footer .footer-nav ul li a {
+        font-size: 14px;
+    }
+
+    .footer-nav.second-child ul li {
+        width: 50%;
+        float: left;
+    }
+
+    .footer-nav.first-child ul li a,
+    .footer-nav.second-child ul li a {
+        font-size: 12px;
+    }
+
+    .moris-footer .partener-brand ul li:first-child {
+        width: 100%;
+    }
+
+    .moris-footer .partener-brand ul li {
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .dvlpContent {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 1rem 0;
+    }
+
+    .dvlpContent figure {
+        position: static;
+        width: 100%;
+        order: 1;
+        margin-bottom: 1.25rem;
+    }
+
+    .dvlpContent h2 {
+        order: 2;
+    }
+
+    .dvlpContent p {
+        order: 3;
+    }
+
+
+    .struglngSec {
+        padding: 0;
+    }
+
+    .dedicateSec {
+        padding: 6rem 0;
+    }
+
+    .delvrContent {
+        min-height: auto;
+    }
+
+    .testimonialSec {
+        background: linear-gradient(45deg, #981f80, #e64d7f);
+        padding-bottom: 4rem;
+    }
+
+    .testimonialSec .slider-for p {
+        font-size: 1.75rem;
+        margin: 0;
+        color: #fff;
+    }
+
+    .testimonialSec .slider-for .fas.fa-quote-right {
+        color: #fff;
+    }
+
+    .pricingBox .pricingContent .themeBtn {
+        margin: 2rem auto 0;
+    }
+
+    .socialMediaSec .serviceSec {
+        background: transparent;
+        padding: 4rem 0 6rem;
+    }
+
+    .socialMediaSec .saleSec,
+    .seoTrafic{
+        background: transparent;
+    }
+
+    .workflowSec {
+        background-size: 100% 100%;
+    }
+
+    .workflowSec .media.text-md-right .count {
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+
+    .workflowSec figure {
+        text-align: center;
+    }
+
+    .lnkdnSocial ul li a {
+        width: 143px;
+        height: 143px;
+        margin: 0 0rem 1rem;
+    }
+
+    .lnkdnSocial ul li a > img {
+        width: 40px;
+    }
+
+    .socialMediaSec .promiseContent .col-md-2:last-of-type img {
+        display: none;
+    }
+
+    .socialMediaSec .payrsltSec .promiseContent {
+        padding: 1rem 1.5rem;
+    }
+
+    .socialMediaSec .promiseContent .section-heading h4 {
+        font-size: 1.5rem;
+    }
+
+    .socialMediaSec .slick-next {
+        right: 0;
+    }
+
+    .socialMediaSec .slick-prev {
+        left: 0;
+    }
+
+    .socialMediaSec .serviceBox h3 br {
+        display: none;
+    }
+
+    .workflowSec .media .count {
+        font-size: 1.25rem;
+    }
+
+    .workflowSec .media-body h2 {
+        font-size: 1.5rem;
+    }
+
+    .callToAction p {
+        font-size: 1rem;
+    }
+
+    .socialMediaSec .promiseContent .col-md-2:first-of-type img {
+        display: none;
+    }
+    .optimizeBox{
+        margin: 0 !important;
+    }
+    .seoRankingSec .row + .row {
+        margin-top: 5rem;
+    }
+    .ourProcess{
+        padding: 4rem 0;
+    }
+    .ourProcess .processBox{
+        padding: 1.5rem 0;
+        text-align: left;
+    }
+    .keywrdBox{
+        box-shadow: -4px 2px 10px rgb(0 0 0 / 14%);
+    }
+    .leadGeneration .leadSecone {
+    padding: 4rem 0 3rem;
+}
+.leadCampaignSec {
+    padding: 6rem 0 3rem;
+}
+.leadGenerationPrice .clousreContent, .leadGenerationPrice .delvrContent {
+    min-height: auto;
+}
+.leadGenerationPrice {
+    padding: 3rem 0 2rem;
+}
+.generatingSec .col-md-3 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.generationBox figure:before {
+    left: 0;
+    right: 0;
+    height: 5rem;
+    margin: auto;
+    transform: translateX(0%);
+    background: #fff;
+}
+.generationBox figure img {
+    margin: auto;
+}
+.rocketLine {
+    display: none;
+}
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 13px;
+    }
+
+
+    main .moris-banner {
+        padding: 3rem 0 9rem;
+    }
+
+    .moris-banner .themeBtn {
+        padding: 0.75em 0.5em;
+    }
+
+    .moris-banner .themeBtn i {
+        margin-left: 0.5rem;
+    }
+
+    .serviceSec {
+        padding: 0;
+    }
+
+    .facebookManagement .section-heading h2 {
+        font-size: 2rem;
+    }
+
+    .manageStragety {
+        background: url(../images/rightbg.png) no-repeat top center/ cover, url(../images/elements/element3.png) no-repeat top 2% right 4%;
+    }
+
+    .manageBg {
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .section-headingTwo.manageBg > h2 {
+        width: auto;
+    }
+
+    .section-headingTwo .themeBtn {
+        margin: 0;
+    }
+
+    .aproachSec {
+        padding: 4rem 0;
+    }
+
+    .lnkdnSocial ul li a {
+        width: 133px;
+        height: 133px;
+    }
+
+    .testimonialSec .slider-for p {
+        font-size: 1.25rem;
+    }
+
+    .payrsltSec .linkedinImg .section-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .payrsltSec .linkedinImg .section-heading h4 {
+        font-size: 1.5rem;
+    }
+
+    .socialMediaSec .moris-banner,
+    .seoWebiste .moris-banner{
+        padding: 0;
+    }
+    .serviceSec{
+        background: none;
+    }
+    section.serviceSec.seoWebsite {
+    padding: 0 0 3rem;
+}
+.leadGeneration .moris-banner h1 {
+    font-size: 2rem;
+}
+}
+
+@media (max-width: 320.98px) {
+    html {
+        font-size: 11px;
+    }
+}

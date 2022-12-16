@@ -1,0 +1,117 @@
+@import './helpers/variables';
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size: 17px;
+	line-height: 1.5;
+	// color: $black;
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+
+	&.overflow-hidden {
+		overflow: hidden;
+	}
+}
+
+a, span {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.text-pink {
+	color: $pink-2;
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	right: 50px;
+	bottom: -50px;
+}
+
+.section-pic {
+	margin-bottom: 45px;
+}
+
+.section-heading {
+	color: $black;
+
+	.section-sub-heading {
+		font-size: 20px;
+		color: $purple-3;
+	}
+
+	.section-main-heading {
+		font-size:56px;
+		font-weight: bold;
+		line-height: 72px;
+		margin-top: 24px;
+		margin-bottom:60px;
+
+		.filled {
+			color: $white;
+			background-color: $pink-2;
+			padding: 0px 8px;
+			border-radius: 10px;
+			line-height: 70px;
+			position: relative;
+
+			&.wing {
+
+				&:before {
+					content: '';
+					position: absolute;			
+					right: -40px;
+					top: -24px;
+					width: 30px;
+					height: 25px;
+				}
+
+				&.pink {
+					&:before {
+						background: url(../../images/bars-filled.svg);
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					
+				}
+
+				&.white {
+					background: url(../../images/bars-filled.svg);
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover
+				}
+			}
+		}
+	}
+
+	.section-description {
+		font-size: 21px;
+		line-height: 36px;
+		color: $grey-3;
+	}
+}
+
+.semi-circle {
+	background: url(../../images/semi-circle.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-top: 26px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+

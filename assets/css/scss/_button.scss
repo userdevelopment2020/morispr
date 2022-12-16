@@ -1,0 +1,121 @@
+.button {
+	display: inline-block;
+	height: 38px;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	&.sm {
+		min-width: 85px;
+	}
+
+	&.outlined {
+		background-color: transparent;
+		border: 1px solid;
+
+		&.white {
+			border-color: $white;
+			
+			&:hover {
+				background-color: $white;
+				color: $default;
+			}
+		}
+	}
+
+	&.filled {
+		height: 60px;
+		width: 170px;
+		background-color: $pink-2;
+		border: 1px solid $white;
+		border-radius: 18px;
+		color: $white;
+		
+		a {
+			text-decoration: none;
+		}
+
+		&.card {
+			position: absolute;
+			left: 33px;
+			bottom: 40px;
+		}
+	}
+}
+
+.more-btn {
+	border:none;
+	background-color: $pink-5;
+	color: $white;
+	font-size: 17px;
+	line-height: 23px;
+	font-weight: 500;
+	padding: 11px 17px 13px 70px;
+	position: relative;
+	border-radius: 60px 0 54px 60px;
+
+	.icon {
+		width: 58px;
+		height: 58px;
+		display: inline-block;
+		background: $yellow-4 url(../../images/icons/arrow-right-red.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		border: 3px solid $white;
+		border-radius: 58px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+	}
+}
+
+.login-btn {
+	height: 39px;
+	padding: 10px 17px 8px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid $white;
+	border-radius: 8px;
+	background-color: transparent;
+	color: $white;
+	margin: 0 32px 0 25px;
+
+	svg { 
+		color: $white; 
+	
+		@media only screen and (max-width: 1024px) {
+			width: 14px;
+			height: 14px;
+		}
+	}
+
+	@media only screen and (max-width: 1440px) {
+		margin: 0 20px 0 20px;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		font-size: 14px;
+	}
+
+	&:hover {
+		color: $white;
+		background-color: $pink-1;
+		border-color: $pink-1;
+
+		@media only screen and (max-width: 1024px) {
+			color: $yellow-4;
+			background-color: transparent;
+			border: none;
+
+			svg {
+				color: $yellow-4;
+			}
+		}
+	}
+}

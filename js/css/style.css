@@ -1,0 +1,146 @@
+.moris-banner {
+    position: relative;
+}
+
+.isBgColor .moris-banner {
+    background: var(--secondary-color);
+    padding: 3rem 0 10rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.youtubeManagement .moris-banner {
+    /*background: var(--youtube-color);*/
+    padding: 7rem 0 17rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.moris-banner .bannerOverlay {
+    display: flex;
+    align-items: center;
+}
+
+.moris-banner figure {
+    position: relative;
+    z-index: 1;
+}
+
+.moris-banner .imageHolder img {
+    position: absolute;
+}
+
+.moris-banner figure .Laptop {
+    position: static;
+}
+
+.moris-banner figure .Cloud {
+    bottom: -8rem;
+    left: 11rem;
+}
+
+.moris-banner figure .Document {
+    bottom: 1rem;
+    right: 7rem;
+}
+
+.moris-banner figure .SEO {
+    top: 8.5rem;
+    left: 9rem;
+}
+
+.moris-banner figure .Glass {
+    top: 13rem;
+    left: 11rem;
+}
+
+.moris-banner figure .Bars {
+    bottom: -7rem;
+    left: -4rem;
+}
+
+.moris-banner figure .Graph {
+    top: 4rem;
+    right: 9rem;
+}
+
+.moris-banner figure .Vass {
+    top: 1rem;
+    right: 22rem;
+    z-index: -1;
+}
+
+.youtubeManagement .moris-banner h1 {
+    color: #1d1b45;
+}
+
+.youtubeManagement .moris-banner p {
+    color: #1d1b45;
+    line-height: 1.8;
+}
+
+main .moris-banner .bannerOverlay {
+    align-items: center;
+}
+
+main .moris-banner h1 {
+    font-size: 4.125rem;
+}
+
+.facebookManagement .moris-banner .themeBtn,
+.twitterSec .moris-banner .themeBtn,
+.linkedinSec .moris-banner .themeBtn,
+.instagramSec .moris-banner .themeBtn {
+    background: #fff;
+    color: var(--secondary-color);
+}
+
+.facebookManagement .moris-banner .themeBtn+.themeBtn {
+    background: transparent;
+    color: #fff;
+}
+
+.linkedinSec .moris-banner {
+    padding: 7rem 0 19rem;
+}
+
+.linkedinSec .moris-banner .bannerOverlay {
+    align-items: center;
+}
+
+.linkedinSec .moris-banner h1 {
+    font-size: 4.125rem;
+}
+
+.linkedinSec .moris-banner .themeBtn {
+    color: var(--secondary-color);
+    background: #fff;
+}
+
+.moris-banner .themeBtn+.themeBtn {
+    background: transparent;
+    color: #fff;
+}
+
+.instagramSec .moris-banner {
+    --secondary-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    padding: 7rem 0 19rem;
+}
+
+.leadGeneration .moris-banner h1 .leadBg {
+    display: inline-block;
+    padding: 0em 0.15em;
+    border-radius: 20px;
+    background: var(--white);
+    color: var(--secondary-color);
+    line-height: 1.2;
+}
+
+.leadGeneration .moris-banner h1 {
+    line-height: 1.5;
+}
+
+.youtube-strategy .moris-banner .themeBtn {
+    background: var(--white);
+    color: var(--youtube-color);
+}
