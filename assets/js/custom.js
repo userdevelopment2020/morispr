@@ -1,3 +1,10 @@
+var screenwidth = $(window).width();
+if ($(window).width() < 1025) {
+    $("#navbar").find('.mega-menu').hide();
+}
+
+
+
 function closeMegaCountries() {
     jQuery('#globe').removeClass('active');
     $('body').removeClass('overflow-hidden');
@@ -133,11 +140,13 @@ $(document).ready(function() {
     $(document).on('click', '.open_menu', function() {
         console.log("aassassd");
 
-        $(this).closest('.nav-bar').find('.mega-menu').addClass('show');
+        if ($(window).width() < 1025) {
+            // $(this).closest('.sub-nav').find('.mega-menu').hide();
+            $(this).closest('.nav-bar').find('#sub-menu-wrapper').addClass('show');
+            $('#sub-menu-wrapper').html($(this).closest('.sub-nav').find('.mega-menu').html());
+        }
 
-        console.log($(this).closest('.sub-nav').find('.mega-menu').html());
 
-        $('#sub-menu-wrapper').html($(this).closest('.sub-nav').find('.mega-menu').html());
         //if ($(window).width() < 1025) {
         // let currentElement = $(this);
         // let sub_menu_wrapper = $('#sub-menu-wrapper');
