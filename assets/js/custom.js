@@ -132,12 +132,18 @@ $(document).ready(function() {
     // responsive nav
     $(document).on('click', '.sub-nav a', function() {
         console.log("aassassd");
+
+        $(this).closest('.nav-bar').find('.mega-menu').addClass('show');
+
+        console.log($(this).closest('.sub-nav').find('.mega-menu').html());
+
+        $('#sub-menu-wrapper').html($(this).closest('.sub-nav').find('.mega-menu').html());
         //if ($(window).width() < 1025) {
-        let currentElement = $(this);
-        let sub_menu_wrapper = $('#sub-menu-wrapper');
-        sub_menu_wrapper.html(currentElement.find('.mega-menu').html());
-        sub_menu_wrapper.addClass('show');
-        currentElement.parents('.nav-bar').find('#navbar').hide();
+        // let currentElement = $(this);
+        // let sub_menu_wrapper = $('#sub-menu-wrapper');
+        // sub_menu_wrapper.html(currentElement.find('.mega-menu').html());
+        // sub_menu_wrapper.addClass('show');
+        // currentElement.parents('.nav-bar').find('#navbar').hide();
         //}
     });
 
