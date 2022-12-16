@@ -2211,6 +2211,24 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   color: #ee1f4f;
 }
 
+@media only screen and (max-width: 1024px) {
+  header .header-nav .nav-items .nav-bar > ul > li > a.open_menu:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url("../../images/arrowicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 12px;
+    height: 24px;
+  }
+  .hide_mob {
+    display: none;
+  }
+}
+
 .button {
   display: inline-block;
   height: 38px;
