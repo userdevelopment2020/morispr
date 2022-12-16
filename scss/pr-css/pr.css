@@ -585,13 +585,19 @@ section {
   background-image: url("../../images/pr-assets/graphic4.png");
   background-repeat: no-repeat;
   background-position: 20px 100%;
-  background-size: 100%;
+  background-size: 800px;
   padding-bottom: 40px;
   position: absolute;
   right: 0px;
   bottom: 0;
   width: 50%;
   height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .strategy_wrap .big_graphicimg {
+    background-size: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1652,6 +1658,12 @@ section {
   padding: 120px 0 200px;
   position: relative;
   overflow: visible;
+}
+
+@media screen and (min-width: 1580px) {
+  .btm_wrapper {
+    padding-bottom: 350px;
+  }
 }
 
 @media screen and (max-width: 767px) {

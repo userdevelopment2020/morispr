@@ -469,13 +469,16 @@ section {
         background-image: url("../../images/pr-assets/graphic4.png");
         background-repeat: no-repeat;
         background-position: 20px 100%;
-        background-size: 100%;
+        background-size: 800px;
         padding-bottom: 40px;
         position: absolute;
         right: 0px;
         bottom: 0;
         width: 50%;
         height: 100%;
+        @media screen and (max-width: 1200px) {
+            background-size: 100%;
+        }
         @media screen and (max-width: 767px) {
             background-size: 450px;
             width: 100%;
@@ -1247,6 +1250,9 @@ section {
     padding: 120px 0 200px;
     position: relative;
     overflow: visible;
+    @media screen and (min-width: 1580px) {
+        padding-bottom: 350px;
+    }
     @media screen and (max-width: 767px) {
         padding: 160px 0 100px;
         margin-top: -70px;
