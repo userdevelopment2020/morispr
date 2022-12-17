@@ -5,6 +5,12 @@ body {
   overflow-x: hidden;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 section {
   overflow: hidden;
   width: 100%;
