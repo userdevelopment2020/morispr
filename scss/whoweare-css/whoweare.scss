@@ -1,0 +1,126 @@
+.who_banner {
+    background-image: url("../../images/whoweare-assets/whoweare-banner.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 300px 0 0;
+    margin: 74px 0 100px;
+    position: relative;
+    .dots_icon {
+        position: absolute;
+        bottom: 8%;
+        left: 8%;
+        width: 70px;
+        object-fit: contain;
+        transform: rotate(170deg);
+    }
+    .banner_img {
+        width: 200px;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .banner_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    h1 {
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-weight: 700;
+        margin: 0;
+        span {
+            color: #E00045;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                right: -25px;
+                top: -10px;
+                width: 30px;
+                height: 30px;
+                background-image: url("../../images/lines-icon.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+        }
+    }
+    p {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        color: #000;
+        font-weight: 500;
+        margin: 0 0 20px 0;
+        &:last-child {
+            max-width: 759px;
+        }
+        span {
+            font-size: 25px;
+        }
+    }
+}
+
+.our_wrap {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 7%;
+        left: -70px;
+        height: 100%;
+        width: 100%;
+        background-image: url(../../images/half-circle.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 300px;
+        z-index: -9;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0%;
+        right: -70px;
+        height: 100%;
+        width: 100%;
+        background-image: url(../../images/half-circle-right.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 300px;
+        z-index: -9;
+    }
+    .custom_container {
+        max-width: 1100px;
+    }
+    .row {
+        // margin-bottom: 20px;
+        &:first-child {
+            .big_img {
+                max-width: 440px;
+            }
+        }
+        .col-md-6 {
+            padding: 0 30px;
+        }
+    }
+    h1 {
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin: 0;
+        color: #E00045;
+    }
+    p {
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        color: #828282;
+        font-weight: 300;
+        margin: 20px 0 0 0;
+        // max-width: 500px;
+        line-height: 1.7;
+    }
+}

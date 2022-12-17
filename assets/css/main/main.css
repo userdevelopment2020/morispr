@@ -1995,7 +1995,7 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
 
 .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .menus > a {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #1D1B45;
   padding-left: 0;
 }
@@ -2004,12 +2004,26 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   font-size: 17px;
   line-height: 23px;
   font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .menus > a span {
+    font-size: 15px;
+  }
 }
 
 .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .menus > a span:nth-child(2) {
-  font-size: 15px;
+  font-size: 13px;
   display: block;
   font-weight: 300;
+  text-transform: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .menus > a span:nth-child(2) {
+    font-size: 12px;
+  }
 }
 
 .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .menus > a:last-child {
