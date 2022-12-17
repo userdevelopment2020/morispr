@@ -2,10 +2,18 @@
   background-image: url("../../images/whoweare-assets/whoweare-banner.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: 100%;
   padding: 300px 0 0;
   margin: 74px 0 100px;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .who_banner {
+    padding-top: 30%;
+    margin-bottom: 50px;
+    background-size: 110%;
+  }
 }
 
 .who_banner .dots_icon {
@@ -25,12 +33,32 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .who_banner .dots_icon {
+    left: 2%;
+    width: 40px;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .who_banner .dots_icon {
+    display: none;
+  }
+}
+
 .who_banner .banner_img {
   width: 200px;
   -o-object-fit: contain;
      object-fit: contain;
   display: block;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .who_banner .banner_img {
+    width: 130px;
+  }
 }
 
 .who_banner .banner_content {
@@ -50,12 +78,24 @@
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .who_banner .banner_content {
+    text-align: left;
+  }
+}
+
 .who_banner h1 {
   font-size: 45px;
   font-family: 'Poppins', sans-serif;
   color: #000;
   font-weight: 700;
   margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .who_banner h1 {
+    font-size: 30px;
+  }
 }
 
 .who_banner h1 span {
@@ -76,12 +116,26 @@
   background-size: contain;
 }
 
+@media screen and (max-width: 767px) {
+  .who_banner h1 span::after {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+    right: -35px;
+  }
+}
+
 .who_banner p {
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #000;
   font-weight: 500;
   margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .who_banner p {
+    font-size: 18px;
+  }
 }
 
 .who_banner p:last-child {
@@ -92,9 +146,21 @@
   font-size: 25px;
 }
 
+@media screen and (max-width: 767px) {
+  .who_banner p span {
+    font-size: 20px;
+  }
+}
+
 .our_wrap {
   position: relative;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .our_wrap {
+    margin-bottom: 20px;
+  }
 }
 
 .our_wrap::before {
@@ -111,6 +177,14 @@
   z-index: -9;
 }
 
+@media screen and (max-width: 767px) {
+  .our_wrap::before {
+    bottom: 25%;
+    background-size: 150px;
+    left: -50px;
+  }
+}
+
 .our_wrap::after {
   content: "";
   position: absolute;
@@ -125,6 +199,22 @@
   z-index: -9;
 }
 
+@media screen and (max-width: 767px) {
+  .our_wrap::after {
+    right: -50px;
+    background-size: 150px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our_wrap .mob_reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 .our_wrap .custom_container {
   max-width: 1100px;
 }
@@ -133,8 +223,20 @@
   max-width: 440px;
 }
 
+@media screen and (max-width: 767px) {
+  .our_wrap .row:first-child .big_img {
+    margin-left: -20px;
+  }
+}
+
 .our_wrap .row .col-md-6 {
   padding: 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .our_wrap .row .col-md-6 {
+    padding: 0 15px;
+  }
 }
 
 .our_wrap h1 {
@@ -143,6 +245,12 @@
   font-weight: 700;
   margin: 0;
   color: #E00045;
+}
+
+@media screen and (max-width: 767px) {
+  .our_wrap h1 {
+    font-size: 30px;
+  }
 }
 
 .our_wrap p {
@@ -154,6 +262,14 @@
   line-height: 1.7;
 }
 
+@media screen and (max-width: 767px) {
+  .our_wrap p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    line-height: 1.5;
+  }
+}
+
 .who_wrap {
   background-image: url("../../images/whoweare-assets/who-bg.png");
   background-repeat: no-repeat;
@@ -161,6 +277,29 @@
   background-size: cover;
   padding: 180px 0 40px;
   position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .who_wrap {
+    padding-bottom: 55%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .who_wrap {
+    background-position: top;
+    padding-bottom: 75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .who_wrap .col-md-8 {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
 }
 
 .who_wrap .dots_icon {
@@ -174,12 +313,25 @@
           transform: rotate(-20deg);
 }
 
+@media screen and (max-width: 767px) {
+  .who_wrap .dots_icon {
+    top: 7%;
+    width: 50px;
+  }
+}
+
 .who_wrap h1 {
   font-size: 45px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   margin: 0 0 30px;
   color: #5C5C5C;
+}
+
+@media screen and (max-width: 767px) {
+  .who_wrap h1 {
+    font-size: 30px;
+  }
 }
 
 .who_wrap h1 span {
@@ -198,17 +350,59 @@
 .who_wrap .right_bigimg {
   position: absolute;
   right: 0;
-  bottom: 25%;
+  bottom: 10%;
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 33%;
 }
 
+@media screen and (max-width: 992px) {
+  .who_wrap .right_bigimg {
+    bottom: 5%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .who_wrap .right_bigimg {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    max-width: 60%;
+    bottom: 2%;
+  }
+}
+
 .learn_wrap {
   background-color: #FFFF00;
   padding: 80px 0;
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .learn_wrap {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .learn_wrap {
+    padding: 30px 0;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .learn_wrap .col-md-5,
+  .learn_wrap .col-md-7 {
+    width: 100%;
+    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    padding: 15px;
+  }
 }
 
 .learn_wrap h1 {
@@ -219,8 +413,20 @@
   margin: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .learn_wrap h1 {
+    font-size: 27px;
+  }
+}
+
 .learn_wrap h1 span {
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .learn_wrap h1 span {
+    margin-top: 10px;
+  }
 }
 
 .learn_wrap h1 span::after {
@@ -249,6 +455,13 @@
   margin: 0 -10px;
 }
 
+@media screen and (max-width: 767px) {
+  .learn_wrap ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .learn_wrap ul li {
   padding: 0 10px;
   width: 25%;
@@ -256,6 +469,16 @@
       -ms-flex: 0 0 25%;
           flex: 0 0 25%;
   min-height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .learn_wrap ul li {
+    width: 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    padding: 10px;
+  }
 }
 
 .learn_wrap ul li a {
@@ -321,8 +544,31 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  .boxes_wrap {
+    margin-bottom: 30px;
+  }
+}
+
 .boxes_wrap .col-md-4 {
   padding: 20px 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .boxes_wrap .col-md-4 {
+    width: 50%;
+    max-width: 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .boxes_wrap .col-md-4 {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .boxes_wrap .white_wrap {
@@ -338,6 +584,18 @@
   position: relative;
 }
 
+@media screen and (max-width: 1200px) {
+  .boxes_wrap .white_wrap {
+    padding: 35px 20px 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .boxes_wrap .white_wrap {
+    padding: 15px 15px 50px;
+  }
+}
+
 .boxes_wrap img {
   width: 80px;
   height: 80px;
@@ -345,6 +603,13 @@
      object-fit: contain;
   display: block;
   margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .boxes_wrap img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .boxes_wrap h4 {
@@ -355,6 +620,18 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .boxes_wrap h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .boxes_wrap h4 {
+    font-size: 18px;
+  }
+}
+
 .boxes_wrap p {
   color: #828282;
   font-size: 18px;
@@ -362,6 +639,13 @@
   font-weight: 300;
   margin: 20px 0;
   line-height: 1.7;
+}
+
+@media screen and (max-width: 1200px) {
+  .boxes_wrap p {
+    font-size: 16px;
+    margin: 15px 0;
+  }
 }
 
 .boxes_wrap a {
@@ -378,9 +662,10 @@
   left: 50%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
   .boxes_wrap a {
     font-size: 16px;
+    bottom: 25px;
   }
 }
 
@@ -405,7 +690,19 @@
 
 .page_bottom {
   width: 100%;
-  margin-bottom: -40px;
+  margin-bottom: -30px;
+}
+
+@media screen and (max-width: 992px) {
+  .page_bottom {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page_bottom {
+    display: none;
+  }
 }
 
 .page_bottom img {

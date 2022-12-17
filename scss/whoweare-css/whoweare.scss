@@ -2,10 +2,15 @@
     background-image: url("../../images/whoweare-assets/whoweare-banner.png");
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
+    background-size: 100%;
     padding: 300px 0 0;
     margin: 74px 0 100px;
     position: relative;
+    @media screen and (max-width: 767px) {
+        padding-top: 30%;
+        margin-bottom: 50px;
+        background-size: 110%;
+    }
     .dots_icon {
         position: absolute;
         bottom: 8%;
@@ -16,12 +21,23 @@
         @media screen and (max-width: 1100px) {
             left: 4%;
         }
+        @media screen and (max-width: 992px) {
+            left: 2%;
+            width: 40px;
+            bottom: 0;
+        }
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
     }
     .banner_img {
         width: 200px;
         object-fit: contain;
         display: block;
         margin-bottom: 40px;
+        @media screen and (max-width: 767px) {
+            width: 130px;
+        }
     }
     .banner_content {
         display: flex;
@@ -29,6 +45,9 @@
         align-items: center;
         justify-content: flex-end;
         text-align: center;
+        @media screen and (max-width: 767px) {
+            text-align: left;
+        }
     }
     h1 {
         font-size: 45px;
@@ -36,6 +55,9 @@
         color: #000;
         font-weight: 700;
         margin: 0;
+        @media screen and (max-width: 767px) {
+            font-size: 30px;
+        }
         span {
             color: #E00045;
             position: relative;
@@ -50,6 +72,10 @@
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
+                @media screen and (max-width: 767px) {
+                    transform: rotate(15deg);
+                    right: -35px;
+                }
             }
         }
     }
@@ -59,11 +85,17 @@
         color: #000;
         font-weight: 500;
         margin: 0 0 20px 0;
+        @media screen and (max-width: 767px) {
+            font-size: 18px;
+        }
         &:last-child {
             max-width: 759px;
         }
         span {
             font-size: 25px;
+            @media screen and (max-width: 767px) {
+                font-size: 20px;
+            }
         }
     }
 }
@@ -71,6 +103,9 @@
 .our_wrap {
     position: relative;
     margin-bottom: 100px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 20px;
+    }
     &::before {
         content: "";
         position: absolute;
@@ -83,6 +118,11 @@
         background-position: bottom left;
         background-size: 300px;
         z-index: -9;
+        @media screen and (max-width: 767px) {
+            bottom: 25%;
+            background-size: 150px;
+            left: -50px;
+        }
     }
     &::after {
         content: "";
@@ -96,6 +136,15 @@
         background-position: top right;
         background-size: 300px;
         z-index: -9;
+        @media screen and (max-width: 767px) {
+            right: -50px;
+            background-size: 150px;
+        }
+    }
+    .mob_reverse {
+        @media screen and (max-width: 767px) {
+            flex-direction: column-reverse;
+        }
     }
     .custom_container {
         max-width: 1100px;
@@ -105,10 +154,16 @@
         &:first-child {
             .big_img {
                 max-width: 440px;
+                @media screen and (max-width: 767px) {
+                    margin-left: -20px;
+                }
             }
         }
         .col-md-6 {
             padding: 0 30px;
+            @media screen and (max-width: 767px) {
+                padding: 0 15px;
+            }
         }
     }
     h1 {
@@ -117,6 +172,9 @@
         font-weight: 700;
         margin: 0;
         color: #E00045;
+        @media screen and (max-width: 767px) {
+            font-size: 30px;
+        }
     }
     p {
         font-size: 22px;
@@ -126,6 +184,11 @@
         margin: 20px 0 0 0;
         // max-width: 500px;
         line-height: 1.7;
+        @media screen and (max-width: 767px) {
+            font-size: 18px;
+            margin: 10px 0 30px;
+            line-height: 1.5;
+        }
     }
 }
 
@@ -136,6 +199,20 @@
     background-size: cover;
     padding: 180px 0 40px;
     position: relative;
+    @media screen and (max-width: 992px) {
+        padding-bottom: 55%;
+    }
+    @media screen and (max-width: 767px) {
+        background-position: top;
+        padding-bottom: 75%;
+    }
+    .col-md-8 {
+        @media screen and (max-width: 992px) {
+            width: 100%;
+            max-width: 100%;
+            flex: none;
+        }
+    }
     .dots_icon {
         position: absolute;
         top: 10%;
@@ -143,6 +220,10 @@
         width: 90px;
         object-fit: contain;
         transform: rotate(-20deg);
+        @media screen and (max-width: 767px) {
+            top: 7%;
+            width: 50px;
+        }
     }
     h1 {
         font-size: 45px;
@@ -150,6 +231,9 @@
         font-weight: 700;
         margin: 0 0 30px;
         color: #5C5C5C;
+        @media screen and (max-width: 767px) {
+            font-size: 30px;
+        }
         span {
             color: #E00045;
         }
@@ -165,10 +249,20 @@
     .right_bigimg {
         position: absolute;
         right: 0;
-        bottom: 25%;
+        bottom: 10%;
         width: 100%;
         object-fit: contain;
         max-width: 33%;
+        @media screen and (max-width: 992px) {
+            bottom: 5%;
+            max-width: 50%;
+        }
+        @media screen and (max-width: 767px) {
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: 60%;
+            bottom: 2%;
+        }
     }
 }
 
@@ -176,15 +270,37 @@
     background-color: #FFFF00;
     padding: 80px 0;
     margin-bottom: 80px;
+    @media screen and (max-width: 992px) {
+        padding: 60px 0;
+    }
+    @media screen and (max-width: 767px) {
+        padding: 30px 0;
+        margin-bottom: 50px;
+    }
+    .col-md-5,
+    .col-md-7 {
+        @media screen and (max-width: 992px) {
+            width: 100%;
+            max-width: 100%;
+            flex: none;
+            padding: 15px;
+        }
+    }
     h1 {
         font-size: 45px;
         font-family: 'Poppins', sans-serif;
         color: #000;
         font-weight: 700;
         margin: 0;
+        @media screen and (max-width: 767px) {
+            font-size: 27px;
+        }
         span {
             // color: #E00045;
             position: relative;
+            @media screen and (max-width: 767px) {
+                margin-top: 10px;
+            }
             &::after {
                 content: '';
                 position: absolute;
@@ -204,11 +320,19 @@
         align-items: stretch;
         justify-content: flex-start;
         margin: 0 -10px;
+        @media screen and (max-width: 767px) {
+            flex-wrap: wrap;
+        }
         li {
             padding: 0 10px;
             width: 25%;
             flex: 0 0 25%;
             min-height: 100%;
+            @media screen and (max-width: 767px) {
+                width: 50%;
+                flex: 0 0 50%;
+                padding: 10px;
+            }
             a {
                 display: block;
                 height: 100%;
@@ -256,8 +380,20 @@
 
 .boxes_wrap {
     margin-bottom: 50px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+    }
     .col-md-4 {
         padding: 20px 15px;
+        @media screen and (max-width: 992px) {
+            width: 50%;
+            max-width: 50%;
+            flex: none;
+        }
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            max-width: 100%;
+        }
     }
     .white_wrap {
         box-shadow: 0px 2px 6px #00000029;
@@ -268,6 +404,12 @@
         height: 100%;
         transition: 0.3s ease-in-out;
         position: relative;
+        @media screen and (max-width: 1200px) {
+            padding: 35px 20px 45px;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 15px 15px 50px;
+        }
     }
     img {
         width: 80px;
@@ -275,6 +417,10 @@
         object-fit: contain;
         display: block;
         margin: 0 auto 10px;
+        @media screen and (max-width: 1200px) {
+            width: 70px;
+            height: 70px;
+        }
     }
     h4 {
         font-size: 24px;
@@ -282,6 +428,12 @@
         color: #000;
         font-weight: 700;
         margin: 0;
+        @media screen and (max-width: 1200px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 767px) {
+            font-size: 18px;
+        }
     }
     p {
         color: #828282;
@@ -290,6 +442,10 @@
         font-weight: 300;
         margin: 20px 0;
         line-height: 1.7;
+        @media screen and (max-width: 1200px) {
+            font-size: 16px;
+            margin: 15px 0;
+        }
     }
     a {
         color: #e1003e;
@@ -302,9 +458,11 @@
         bottom: 35px;
         transform: translateX(-50%);
         left: 50%;
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 1200px) {
             font-size: 16px;
+            bottom: 25px;
         }
+        @media screen and (max-width: 767px) {}
         &:hover {
             &::after {
                 width: 0;
@@ -327,7 +485,13 @@
 
 .page_bottom {
     width: 100%;
-    margin-bottom: -40px;
+    margin-bottom: -30px;
+    @media screen and (max-width: 992px) {
+        margin: 0;
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
     img {
         width: 100%;
         object-fit: contain;
