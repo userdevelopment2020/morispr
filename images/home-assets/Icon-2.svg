@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Icon" transform="translate(0.429)">
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="50" height="50" rx="16" transform="translate(-0.429)" fill="#ee1f4f"/>
+    <g id="microphone" transform="translate(16.29 12.375)">
+      <path id="Path_3747" data-name="Path 3747" d="M22.542,15.75V18.4a6.307,6.307,0,0,1-6.417,6.191A6.307,6.307,0,0,1,9.708,18.4V15.75H7.875V18.4a8.069,8.069,0,0,0,7.333,7.907v1.822H11.542V29.9h9.167V28.132H17.042V26.311A8.069,8.069,0,0,0,24.375,18.4V15.75Z" transform="translate(-7.875 -5.151)" fill="#fff"/>
+      <path id="Path_3748" data-name="Path 3748" d="M17.087,19.939A4.574,4.574,0,0,0,21.8,15.517V6.672A4.574,4.574,0,0,0,17.087,2.25a4.574,4.574,0,0,0-4.712,4.422v8.844A4.574,4.574,0,0,0,17.087,19.939ZM14.26,6.672a2.833,2.833,0,0,1,5.655,0v8.844a2.833,2.833,0,0,1-5.655,0Z" transform="translate(-8.837 -2.25)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
