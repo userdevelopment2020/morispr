@@ -2050,6 +2050,12 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   width: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+  .mega-menu .mega-menu-content .menu-items ul li .sub-content .sub-content-wrapper .media img {
+    margin-left: -20px;
+  }
+}
+
 .mega-menu .mega-menu-content.two-column .menu-items {
   width: 764px;
   display: -webkit-box;

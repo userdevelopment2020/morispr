@@ -329,6 +329,7 @@
   background-size: cover;
   margin-top: 100px;
   position: relative;
+  overflow: visible;
 }
 
 .doc_wrapper::before {
@@ -360,6 +361,8 @@
 .doc_wrapper .center_content {
   max-width: 500px;
   margin: 0px auto 0;
+  position: relative;
+  height: 600px;
 }
 
 .doc_wrapper .center_content h1 {
@@ -432,9 +435,15 @@
 
 .doc_wrapper .center_content .bottom_img {
   width: 100%;
-  max-width: 250px;
+  max-width: 350px;
   display: block;
   margin: 30px auto 0;
+  position: absolute;
+  left: 45%;
+  bottom: -100px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0.5;
 }
 
 .whitesection_wrap.bg_wrap {

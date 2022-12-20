@@ -274,6 +274,7 @@
         background-size: cover;
         margin-top: 100px;
         position: relative;
+        overflow: visible;
         &::before {
             content: '';
             width: 33%;
@@ -301,6 +302,8 @@
         .center_content {
             max-width: 500px;
             margin: 0px auto 0;
+            position: relative;
+            height: 600px;
             h1 {
                 color: #56006C;
                 font-size: 55px;
@@ -359,9 +362,14 @@
             }
             .bottom_img {
                 width: 100%;
-                max-width: 250px;
+                max-width: 350px;
                 display: block;
                 margin: 30px auto 0;
+                position: absolute;
+                left: 45%;
+                bottom: -100px;
+                transform: translateX(-50%);
+                opacity: 0.5;
             }
         }
     }
