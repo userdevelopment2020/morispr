@@ -1,16 +1,16 @@
 .who_banner {
-  background-image: url("../../images/whoweare-assets/whoweare-banner.png");
+  background-image: url("../../images/whoweare-assets/whoweare-banner.gif");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100%;
-  padding: 300px 0 0;
+  padding: 40% 0 0;
   margin: 74px 0 100px;
   position: relative;
 }
 
 @media screen and (max-width: 767px) {
   .who_banner {
-    padding-top: 30%;
+    padding-top: 60%;
     margin-bottom: 50px;
     background-size: 150%;
     margin-top: 120px;
@@ -52,7 +52,7 @@
   width: 200px;
   -o-object-fit: contain;
      object-fit: contain;
-  display: block;
+  display: none;
   margin-bottom: 40px;
 }
 
@@ -289,7 +289,7 @@
 @media screen and (max-width: 767px) {
   .who_wrap {
     background-position: top;
-    padding-bottom: 75%;
+    padding-bottom: 60%;
   }
 }
 
@@ -372,6 +372,26 @@
             transform: translateX(-50%);
     max-width: 60%;
     bottom: 2%;
+  }
+}
+
+.who_wrap .mob_hide {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .who_wrap .mob_hide {
+    display: none;
+  }
+}
+
+.who_wrap .desk_hide {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .who_wrap .desk_hide {
+    display: block;
   }
 }
 
