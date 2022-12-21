@@ -2467,6 +2467,7 @@ footer .float_btn {
   position: fixed;
   bottom: 20px;
   right: 60px;
+  z-index: 9;
 }
 
 @media screen and (max-width: 767px) {

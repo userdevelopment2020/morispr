@@ -343,15 +343,22 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .blocks_wrapper .col-md-4 {
+    width: 50%;
     padding: 15px;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .blocks_wrapper .col-md-4 {
+    width: 100%;
+  }
+}
+
 .blocks_wrapper .box_wrap {
-  -webkit-box-shadow: 0px 2px 6px #0000000F;
-          box-shadow: 0px 2px 6px #0000000F;
+  -webkit-box-shadow: 0px 2px 6px #00000024;
+          box-shadow: 0px 2px 6px #00000024;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   border-radius: 24px;
@@ -460,7 +467,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
   .doc_wrapper::before {
     display: none;
   }
@@ -495,6 +502,12 @@
   margin: 0px auto 0;
   position: relative;
   height: 600px;
+}
+
+@media screen and (max-width: 1200px) {
+  .doc_wrapper .center_content {
+    margin: 0;
+  }
 }
 
 .doc_wrapper .center_content h1 {
@@ -1474,9 +1487,16 @@
           justify-content: flex-start;
 }
 
+@media screen and (max-width: 992px) {
+  .white_section .blocks_wrap .col-md-4 {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .white_section .blocks_wrap .col-md-4 {
     margin-bottom: 30px;
+    width: 100%;
   }
 }
 
@@ -1507,6 +1527,16 @@
 @media screen and (max-width: 767px) {
   .white_section .blocks_wrap .border_btm::after {
     display: none;
+  }
+}
+
+.white_section .blocks_wrap .tab_view::after {
+  display: none;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .white_section .blocks_wrap .tab_view::after {
+    display: block;
   }
 }
 
@@ -1623,10 +1653,22 @@
   margin-top: -40px;
 }
 
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .entertain_wrap h1 .black_text {
+    margin: 0;
+  }
+}
+
 .entertain_wrap h1 .belowtext_img {
   display: block;
   margin-left: auto;
   margin-top: -8px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .entertain_wrap h1 .belowtext_img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2096,6 +2138,12 @@ footer {
 @media screen and (max-width: 380px) {
   footer {
     margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 40px !important;
   }
 }
 
