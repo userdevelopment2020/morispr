@@ -87,6 +87,7 @@
   #waves {
     bottom: 0 !important;
     height: 463px !important;
+    width: 100% !important;
   }
 }
 

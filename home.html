@@ -1219,7 +1219,7 @@
         </div>
     </section>
 
-    <section class="whitesection_wrap pt-0">
+    <section class="whitesection_wrap pt-0 business_wrap">
         <img src="images/Layer3.png" alt="" class="topright_dots" />
         <div class="custom_container">
             <div class="row align-items-center">
@@ -1407,8 +1407,8 @@
     <section class="cta_wrapper d-flex align-items-center yellowbg_wrap">
         <div class="custom_container">
             <div class="row align-items-center">
-                <div class="col-md-2">
-                    <img src="images/home-assets/graphics4.png" alt="" class="big_img" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000" />
+                <div class="col-md-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
+                    <img src="images/home-assets/graphics4.png" alt="" class="big_img" />
                 </div>
                 <div class="col-md-10 text_box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
                     <div class="content_block">
@@ -1423,7 +1423,18 @@
     <section class="process_wrap">
         <div class="container-fluid">
             <h1>Our <span class="box_text">Working</span> <span>Process <img src="images/longline-icon-white.png" alt="" class="belowtext_img" /></span></h1>
-            <img src="images/home-assets/process-img.png" alt="" class="big_img" />
+            <!-- <img src="images/home-assets/process-img.png" alt="" class="big_img" /> -->
+            <ul>
+                <li>
+                    <p>Planning</p><img src="images/home-assets/plan1.gif" alt="" class="big_img" /></li>
+                <li>
+                    <p>Research</p><img src="images/home-assets/plan2.gif" alt="" class="big_img" /></li>
+                <li>
+                    <p>Optimizing</p><img src="images/home-assets/plan3.gif" alt="" class="big_img" /></li>
+                <li>
+                    <p>Results</p><img src="images/home-assets/plan4.gif" alt="" class="big_img" /></li>
+                <li class="rocket_img"><img src="images/home-assets/plan_rocket.gif" alt="" class="big_img" /></li>
+            </ul>
         </div>
     </section>
 
@@ -1515,7 +1526,7 @@
     <section class="whitesection_wrap pt-0 tagetaudience_wrap">
         <img src="images/Layer3.png" alt="" class="topright_dots" />
         <div class="custom_container">
-            <div class="row align-items-center">
+            <div class="row align-items-center mob_reverse">
                 <div class="col-md-6">
                     <img src="images/home-assets/graphics5.png" alt="" class="big_img" />
                 </div>
@@ -1712,6 +1723,12 @@
 
     <!-- footer -->
     <footer>
+        <div class="float_btn">
+            <div class="content_btn">
+                <p>Hello! <br> I’m Sana.</p>
+                <img src="images/chat-img.png" alt="" />
+            </div>
+        </div>
         <div class="footer-nav">
             <ul>
                 <li><a href="#">About</a></li>
@@ -1796,6 +1813,20 @@
             centeredSlides: true,
             spaceBetween: 30,
             grabCursor: true,
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                767: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 30,
+                },
+                300: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 15,
+                },
+            },
         });
     </script>
 </body>
