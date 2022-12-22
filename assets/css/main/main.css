@@ -2378,6 +2378,10 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   width: 100%;
 }
 
+.search_box .bottom_searchbox .faq_link:hover {
+  color: #6D007D;
+}
+
 .search_box .bottom_searchbox .pink_btm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2391,8 +2395,9 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #57006c1c;
-  padding: 40px 0;
+  padding: 20px 0;
   margin-top: 40px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2402,10 +2407,14 @@ header.active-responsive-countries .top-bar .contact-info .globe-dropdown-conten
 }
 
 .search_box .bottom_searchbox .pink_btm a {
-  margin: 0 20px 0 0;
+  margin: 0 20px 10px 0;
   font-size: 14px;
   color: #E60C35;
   font-weight: 500;
+}
+
+.search_box .bottom_searchbox .pink_btm a:hover {
+  color: #6D007D;
 }
 
 .search_box h6 {

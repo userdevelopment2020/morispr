@@ -1675,6 +1675,9 @@ header {
             font-weight: 500;
             text-align: center;
             width: 100%;
+            &:hover {
+                color: #6D007D;
+            }
         }
         .pink_btm {
             display: flex;
@@ -1682,16 +1685,20 @@ header {
             justify-content: space-between;
             flex-wrap: wrap;
             background-color: #57006c1c;
-            padding: 40px 0;
+            padding: 20px 0;
             margin-top: 40px;
+            text-align: center;
             @media only screen and (max-width: 767px) {
                 display: none;
             }
             a {
-                margin: 0 20px 0 0;
+                margin: 0 20px 10px 0;
                 font-size: 14px;
                 color: #E60C35;
                 font-weight: 500;
+                &:hover {
+                    color: #6D007D;
+                }
             }
         }
     }
