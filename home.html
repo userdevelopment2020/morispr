@@ -11,13 +11,8 @@
     <link href="./js/fonts.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Link Swiper's CSS -->
@@ -900,12 +895,45 @@
 					<img class="rocket" src="./assets/images/header/rocket-icon.png" alt="">
 				</button>
 
-                <div class="search">
+                <div class="search" id="openSearch">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
 						<g id="search" transform="translate(-5.993 -2.299)">
 							<path id="Path_3651" data-name="Path 3651" d="M27.207,21.417a11.855,11.855,0,1,0-2.091,2.092l.064.067,6.283,6.289a1.483,1.483,0,1,0,2.1-2.1l-6.285-6.287q-.033-.032-.067-.062ZM24.132,7.857a8.889,8.889,0,1,1-12.567,0,8.9,8.9,0,0,1,12.567,0Z" transform="translate(0 0)" fill="currentcolor" fill-rule="evenodd"/>
 						</g>
 					</svg>
+                </div>
+
+                <div class="search_box" id="searchBox">
+                    <img src="./assets/images/header/close-icon.svg" alt="" class="close_icon" id="closeSearch" />
+                    <img src="./assets/images/header/Layer3.png" alt="" class="topleft_dots" />
+                    <div class="container width_cntrl">
+                        <input type="text" name="" id="" class="search_input" placeholder="Search for Services" />
+                        <p>Popular Searches</p>
+                        <ul class="box_li">
+                            <li><a href="#">PR Campaign</a></li>
+                            <li><a href="#">Press Release</a></li>
+                            <li><a href="#">Lead Generation</a></li>
+                            <li><a href="#">Social Media Marketing</a></li>
+                            <li><a href="#">Personal Branding</a></li>
+                            <li><a href="#">Celebrity Booking</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom_searchbox">
+                        <div class="container">
+                            <h6>Get Answers To <span>Your Queries</span> Even Before You Ask Them</h6>
+                            <a href="#" class="faq_link">FREQUENTLY ASKED QUESTIONS</a>
+                        </div>
+                        <div class="pink_btm">
+                            <div class="container">
+                                <a href="#">PR Solutions</a>
+                                <a href="#">Digital Solutions</a>
+                                <a href="#">Social Media Solutions</a>
+                                <a href="#">Celebrity & Influencer Solutions</a>
+                                <a href="#">Performance Marketing Solutions</a>
+                                <a href="#">Search Engine Optimisation (SEO) Solutions</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="mega-hamburger" id="mega">
@@ -1309,20 +1337,8 @@
         </div>
     </section>
 
-    <section class="cta_wrapper d-flex align-items-center">
-        <div class="custom_container">
-            <div class="row align-items-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
-                <div class="col-md-2">
-                    <img src="images/home-assets/graphics9.png" alt="" class="big_img" />
-                </div>
-                <div class="col-md-10 text_box" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
-                    <div class="content_block">
-                        <h1>Grow your website authority with creative link building</h1>
-                    </div>
-                    <button class="common_home_btn yellow_btn" type="button">Get Free Website Analysis Report <img src="images/home-assets/arrow-right-red.svg" alt="Icon" /></button>
-                </div>
-            </div>
-        </div>
+    <section class="cta_wrapper_img">
+        <img src="images/home-assets/graphics9.gif" alt="" class="big_img" />
     </section>
 
     <section class="strategy_wrap halfcricle_wrap">
@@ -1527,7 +1543,7 @@
         <div class="custom_container">
             <div class="row align-items-center mob_reverse">
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
-                    <img src="images/home-assets/graphics5.png" alt="" class="big_img" />
+                    <img src="images/home-assets/graphics5.gif" alt="" class="big_img" />
                 </div>
                 <div class="col-md-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
                     <label>FOCUSED TARGET AUDIENCE</label>
@@ -1716,7 +1732,7 @@
                 <button class="common_btn purple_bg" type="button"><span class="yellow_bg">contact sales</span><img src="images/pr-assets/user-line.svg" alt="Icon" /></button>
             </div>
         </div>
-        <img src="images/home-assets/rocket_btm.png" alt="" class="btm_center_img" />
+        <img src="images/home-assets/rocket_btm.gif" alt="" class="btm_center_img" />
         <img src="images/pr-assets/graphic16.png" alt="" class="btm_bg_img" />
     </section>
 
@@ -1793,41 +1809,73 @@
 			</svg>
             </a>
         </div>
+
+        <!-- Cookies Block starts -->
+        <div class="cookiesBlock">
+            <div class="container">
+                <p class="normal mb-15">We value your privacy. We and our partners use trackers to measure the audience of our website and to provide you with offers and advertising tailored to your interests.
+                    <a href="cookie-policy.php" target="_blank" class="normal">More info on cookies and providers we use.</a> You can withdraw your consent at any time in your settings.
+                </p>
+                <div class="cookiesBtns">
+                    <button type="button" class="openCookiePopup" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Personalize My Choices
+                      </button>
+                    <a href="javascript:void(0)" class="acceptCookies">I Accept</a>
+                </div>
+            </div>
+        </div>
+        <!-- Cookies Block ends -->
+
+        <!-- Cookies information popup starts -->
+        <div class="modal fade cookie_popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Privacy Preference Center</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>When you visit any web site, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device. We have provided a simple tool below to accept
+                            or refuse them as you wish. <a href="#">More Information</a></p>
+                        <h1 class="no_flex">ESSENTIAL WEBSITE COOKIES <span>(Always Active)</span></h1>
+                        <p>These cookies are necessary for the website to function and cannot be switched off. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences,
+                            logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.</p>
+                        <h1>ADVERTISING COOKIES
+                            <label class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </label>
+                        </h1>
+                        <p>These cookies may be set through our site by us and our advertising partners to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads
+                            are properly displayed for advertisers, selecting advertisements that are based on your interests and measuring the number of ads displayed and their performance, such as how many people clicked on a given ad. They may be used
+                            by partners to build a profile of your interests and show you relevant adverts on other sites. If you do not allow these cookies, the ads may be less relevant to your interests.</p>
+                        <h1>ADVERTISING COOKIES
+                            <label class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            </label>
+                        </h1>
+                        <p>These cookies may be set through our site by us and our advertising partners to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads
+                            are properly displayed for advertisers, selecting advertisements that are based on your interests and measuring the number of ads displayed and their performance, such as how many people clicked on a given ad. They may be used
+                            by partners to build a profile of your interests and show you relevant adverts on other sites. If you do not allow these cookies, the ads may be less relevant to your interests.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn_border" data-bs-dismiss="modal">Accept All</button>
+                        <button type="button" class="btn_border" data-bs-dismiss="modal">Refuse All</button>
+                        <button type="button" class="btn_border" data-bs-dismiss="modal">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cookies information popup ends -->
     </footer>
 
-    <script>
-        AOS.init();
-    </script>
+
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="./js/simplex-noise.min.js"></script>
     <script src="js/waves.js"></script>
     <script src="./assets/js/custom.js?v=1"></script>
+    <script src="./js/webcustom.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1.5,
-            centeredSlides: true,
-            spaceBetween: 30,
-            grabCursor: true,
-            autoplay: {
-                delay: 1500,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                767: {
-                    slidesPerView: 1.5,
-                    spaceBetween: 30,
-                },
-                300: {
-                    slidesPerView: 1.2,
-                    spaceBetween: 15,
-                },
-            },
-        });
-    </script>
 </body>
 
 </html>

@@ -491,6 +491,13 @@
         top: 40%;
     }
     
+    .cta_wrapper_img {
+        .big_img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    
     .cta_wrapper {
         background-image: url("../../images/home-assets/bg-3.png");
         background-repeat: no-repeat;
