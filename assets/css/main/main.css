@@ -3031,6 +3031,7 @@ footer .footer-social-media a:hover svg {
 }
 
 footer .cookiesBlock {
+  display: none;
   font-family: 'Poppins', sans-serif;
   position: fixed;
   left: 0;
@@ -3140,6 +3141,10 @@ footer .cookiesBlock .cookiesBtns a.acceptCookies:hover {
   background-image: -webkit-gradient(linear, left top, right top, from(#6b287a), to(#fd2366));
   background-image: linear-gradient(to right, #6b287a, #fd2366);
   color: #fff;
+}
+
+footer .cookiesBlock.opencookies_box {
+  display: block;
 }
 
 .cookie_popup {

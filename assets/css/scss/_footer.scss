@@ -201,6 +201,7 @@ footer {
         }
     }
     .cookiesBlock {
+        display: none;
         font-family: 'Poppins', sans-serif;
         position: fixed;
         left: 0;
@@ -280,6 +281,9 @@ footer {
                 }
             }
         }
+    }
+    .cookiesBlock.opencookies_box {
+        display: block;
     }
 }
 

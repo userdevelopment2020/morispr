@@ -10,6 +10,12 @@ $(document).ready(function() {
         $("#searchBox").removeClass("opensearch_box");
     });
 });
+
+$(document).ready(function() {
+    $("#closeCookies").click(function() {
+        $("#CookiesBox").removeClass("opencookies_box");
+    });
+});
 // header js end
 
 

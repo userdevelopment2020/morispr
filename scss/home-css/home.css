@@ -1826,7 +1826,7 @@
   left: -140px;
   height: 100%;
   width: 350px;
-  background-image: url(../../images/pr-assets/half-circle.png);
+  background-image: url("../../images/pr-assets/half-circle.png");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: contain;
