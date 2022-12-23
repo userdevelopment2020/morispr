@@ -127,7 +127,7 @@ footer {
                         padding-right: 10px;
                     }
                     &:hover {
-                        color: $pink-1;
+                        color: #EE1F56;
                     }
                     &:after {
                         content: '';
@@ -189,14 +189,14 @@ footer {
         }
         a {
             svg {
-                color: $pink-1;
+                color: #EE1F56;
                 @media only screen and (max-width: 767px) {
                     width: 13px;
                     height: 13px;
                 }
             }
             &:hover svg {
-                color: $purple-1;
+                color: #56006C;
             }
         }
     }
